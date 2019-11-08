@@ -43,7 +43,18 @@ class Home extends CI_Controller
 	{
 		# code...
 		$data_sender = $this->input->post('data_sender');
-		$data['list'] = $this->Mhome->data_pegawai_payroll();
+		$data['period'] = $data_sender['value2'].'-'.$data_sender['value1'];		
+		$data['list'] = $this->Mhome->data_pegawai_payroll($data['period']);
 		$this->load->view('home/report_payroll/filter',$data);						
+	}
+
+	public function slip_gaji($nik,$period)
+	{
+		# code...
+		$data['carousel']         = 'off'; 
+		$data['content']          = "home/report_payroll/slip";
+		$data['nik']              = $nik;
+		$data['period']           = $period;
+		$this->load->view('home',$data);				
 	}
 }

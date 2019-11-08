@@ -15,7 +15,7 @@
                                 <div class="col-md-6">
                                     <label for="name">Bulan</label>                                                                          
                                     <div class="md-form">
-                                        <select id="f_instansi_jaksa" class="browser-default custom-select js-example-basic-single">
+                                        <select id="fl_bulan" class="browser-default custom-select js-example-basic-single">
                                             <option>- - - Pilih Salah Satu - - -</option>
                                             <?php
                                                 for ($i=1; $i <= count($this->Globalrules->data_bulan()); $i++) { 
@@ -41,7 +41,7 @@
                                 <div class="col-md-6">
                                     <label for="name">Tahun</label>                                                                          
                                     <div class="md-form">
-                                        <select id="f_permohonan" class="browser-default custom-select js-example-basic-single">
+                                        <select id="fl_tahun" class="browser-default custom-select js-example-basic-single">
                                             <option>- - - Pilih Salah Satu - - -</option>
                                             <?php
                                                 $now=date('Y');
@@ -79,16 +79,31 @@
                 <div class="card-body p-5">
                     <div class="row">
                         <div class="col-md-12">
-                            <div class="row">               
+                            <div class="table-responsive">               
                                 <table id="example" class="display col-md-12" style="width:100%">
                                     <thead>
                                         <tr>
+                                            <th>
+
+                                            </th>
                                             <th>Nama</th>
                                             <th>NIP</th>
                                             <th>Divisi</th>
                                             <th>Unit</th>
                                             <th>Jabatan</th>                                                                                        
-                                            <th>Tanggal Mulai Kerja</th>                                            
+                                            <th>Tanggal Mulai Kerja</th>
+                                            <th>Periode</th>
+                                            <th>Gaji Pokok</th>
+                                            <th>Tunjangan Jabatan</th>
+                                            <th>Tunjangan Kehadiran</th>
+                                            <th>Upah Lembur</th>
+                                            <th>Potongan Terlambat</th>
+                                            <th>Potongan BPJS Kesehatan</th>
+                                            <th>Potongan BPJS TK</th>
+                                            <th>Potongan PPH21</th>
+                                            <th>Total Gaji Sementara</th>
+                                            <th>Total Potongan</th>
+                                            <th>Total Gaji</th>
                                         </tr>
                                     </thead>
                                     <tbody></tbody>
