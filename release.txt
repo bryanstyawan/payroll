@@ -1,0 +1,148 @@
+v1.0.0    
+2019-08-27
+==========
+New:
+- Upload SK
+- Docter Schedule
+- Layout User login
+- Timeline
+- Template Pemohon in user
+- Template Termohon in user
+Improved:
+- change route session login
+- add event, priority, dokter, files in assign_letter_process
+- create timeline when set schedule
+- create timeline when setup user 
+- send email when setup user
+- add parameter in get_all_files_in model mforensic_services
+- Autocomplete in select
+Fixed:
+- Next step in forensic_services
+- Get Dokter
+- Template info berkas forensic_services
+Canceled:
+
+v1.0.0    
+2019-08-21
+==========
+New:
+Improved:
+- Email config
+Fixed:
+- Email
+Canceled:
+
+v1.0.Beta    
+2019-08-12
+==========
+New:
+- Fullcalender
+- Remarks for layanan [User]
+- nama pengawal [user]
+- Process for admin 2
+- Component for info Pemohon
+- Component for info Termohon
+- Component for info berkas
+- Component for info team
+- Component for info schedule
+- Build Forensic Team
+- Priority and schedule
+- chartJs
+- Mapping dataflow in dashboard
+- route login user
+- Dummy chartJs
+- Generate user from token
+- Peninjauan kembali [kabid-ksp]
+Improved:
+- Note in verifiy [User]
+- Send email after insert data Termohon
+- Setup Upload files
+- dataflow in verifiy
+- Layout message for respond request
+- show nama instansi
+- Code Review in request admin
+- Code Review in Build team
+- Code Review in Create schedule
+- Code Review in kabid
+- Upload Files in admin
+- Send email in Kabid process
+- Background in request [user]
+- receipt email request
+- Slider Carousel
+Fixed:
+- Table Request
+- Component info Termohon
+- Component info pemohon
+Canceled:
+- No surat permohonan & tanggal surat [User Services]
+- architecture.jpg
+- kuala-lumpur.jpg
+- panorama.jpg
+- san-francisco.jpg
+- sample.jpg
+- man-2.jpg
+
+v1.0.0    
+2019-08-08
+==========
+New:
+- accessibility user role
+- Datepicker
+- Penelusuran + route
+- Services Files
+- Upload files [User]
+- Component pemohon [user]
+- Component pemohon [Internal]
+- Component Termohon [Internal]
+- PHPMailer
+- Setup Gitignore for vendor
+Improved:
+- Layout Home (Landing page)
+- add penjamin biaya, instansi [User Request]
+Fixed:
+- Table Request
+Canceled:
+
+v1.0.0    
+2019-07-30
+==========
+New:
+- route Request dan verifiy admin
+- route propose team
+- route verifiy kabid
+- route assign letter
+- route scheduling
+- mforensic_services
+Improved:
+- base materialize
+Fixed:
+- token timeline
+Canceled:
+- Mbank_data (forensic_services)
+
+v1.0.0    
+2019-07-29
+==========
+New:
+- User Request
+- Setup ajax_status + ajax_catch
+- Gitignore for node_module
+- Base materialize
+- materialize-stepper
+- User Services
+- User verifiy file
+- User Services
+- route process
+Improved:
+Fixed:
+Canceled:
+- Mlogin (home)
+
+v1.0.0    
+2019-07-28
+==========
+New:
+- Base Master
+Improved:
+Fixed:
+Canceled:
