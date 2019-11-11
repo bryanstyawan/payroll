@@ -7,9 +7,14 @@ class Mhome extends CI_Model {
 
 	}
 
-	public function data_pegawai_payroll($period)
+	public function data_pegawai_payroll($period,$nik=NULL)
 	{
 		# code...
+		$sql_helper = "";
+		if ($nik != NULL) {
+			# code...
+			$sql_helper = "AND a.pegawai_nip = '".$nik."'";
+		}
 		$sql = "SELECT a.pegawai_id, 
 						a.pegawai_nama, 
 						a.pegawai_nip,
@@ -29,6 +34,7 @@ class Mhome extends CI_Model {
 				LEFT JOIN payroll_tunjangan_potongan pay ON pay.nik = a.pegawai_nip
 				AND pay.payroll_period = '".$period."'
 				WHERE a.pegawai_status = 1
+				".$sql_helper."
 				";
 		$query = $this->db->query($sql);
 		if($query->num_rows() > 0)

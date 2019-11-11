@@ -11,8 +11,8 @@
         <link href="<?php echo base_url();?>assets_home/material/css/mdb.min.css" rel="stylesheet">
         <link href="<?php echo base_url();?>assets_home/material/styles/main.css" rel="stylesheet">        
         <link href="<?php echo base_url();?>assets_home/material/css/addons-pro/mstepper.min.css" rel="stylesheet">
-        <style type="text/css">@import url("<?php echo base_url() . 'assets/plugins/select2/select2.min.css'; ?>");</style>        
-        <style type="text/css">@import url("<?php echo base_url() . 'assets/plugins/datepicker/css/bootstrap-datepicker3.css'; ?>");</style>        
+        <style type="text/css">@import url("<?php echo base_url() . 'assets_home/plugins/select2/select2.min.css'; ?>");</style>        
+        <style type="text/css">@import url("<?php echo base_url() . 'assets_home/plugins/datepicker/css/bootstrap-datepicker3.css'; ?>");</style>        
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.4/toastr.min.css">                
         <link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css">
         <link rel="stylesheet" href="https://cdn.datatables.net/buttons/1.6.0/css/buttons.dataTables.min.css">        
@@ -128,12 +128,12 @@
         <script type="text/javascript" src="<?php echo base_url();?>assets_home/material/js/mdb.min.js"></script>   
         <script type="text/javascript" src="<?php echo base_url();?>assets_home/material/js/addons-pro/mstepper.min.js"></script>
         <script type="text/javascript" src="<?php echo base_url();?>assets_home/material/js/addons-pro/datepicker.js"></script>        
-        <script type='text/javascript' src="<?php echo base_url(); ?>assets/plugins/datepicker/bootstrap-datepicker.js"></script>        
+        <script type='text/javascript' src="<?php echo base_url(); ?>assets_home/plugins/datepicker/bootstrap-datepicker.js"></script>        
         <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.4/toastr.min.js"></script>
         <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
         <script src="https://cdn.datatables.net/buttons/1.6.0/js/dataTables.buttons.min.js"></script>
         <script src="https://cdn.datatables.net/buttons/1.6.0/js/buttons.print.min.js"></script>                                     
-        <script type='text/javascript' src="<?php echo base_url(); ?>assets/plugins/select2/select2.full.min.js"></script>        
+        <script type='text/javascript' src="<?php echo base_url(); ?>assets_home/plugins/select2/select2.full.min.js"></script>        
         <script>
             new WOW().init();
             $('.js-example-basic-single').select2();             

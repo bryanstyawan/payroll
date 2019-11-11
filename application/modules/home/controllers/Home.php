@@ -55,6 +55,7 @@ class Home extends CI_Controller
 		$data['content']          = "home/report_payroll/slip";
 		$data['nik']              = $nik;
 		$data['period']           = $period;
+		$data['list'] = $this->Mhome->data_pegawai_payroll($data['period'],$data['nik']);		
 		$this->load->view('home',$data);				
 	}
 }
