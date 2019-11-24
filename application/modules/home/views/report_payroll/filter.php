@@ -7,7 +7,7 @@
             <tr>
                 <td>
                     <a href="<?php echo site_url();?>home/slip_gaji/<?=$list[$i]->pegawai_nip;?>/<?=$period;?>" target="_blank" class="btn btn-primary">Slip Gaji</a>
-                    <a href="<?php echo site_url();?>home/detail/<?=$list[$i]->pegawai_nip;?>" class="btn btn-primary">Detail</a>                                        
+                    <a href="<?php echo site_url();?>home/detail/<?=$list[$i]->pegawai_nip;?>/<?=$period;?>" class="btn btn-primary" target="_blank">Input Slip Gaji</a>                                        
                 </td>
                 <td><?=$list[$i]->pegawai_nama;?></td>
                 <td><?=$list[$i]->pegawai_nip;?></td>
